@@ -2,14 +2,14 @@
 
 **Aim:**
 
-To write a C program for array of structure to check eligibility for the vaccine person age above 18 years of age.
+To write a C program for array of structure to check eligibility for the vaccine person age above 6 years of age.
  
 **Algorithm:**
 
 1.	Declare structure eligible with age (integer) and n (character array)
 2.	Declare variable e of type eligible
 3.	Input age and name using scanf, store in e
-4.	If e.age <= 18
+4.	If e.age <= 6
 -	Print "Vaccine Eligibility: No"
 Else
 -	Print "Vaccine Eligibility: Yes"
@@ -28,12 +28,11 @@ int main() {
     scanf("%d", &p.age);
     scanf(" %[^\n]", p.name);  
     printf("Age:%d\n", p.age);
-    printf("Name:%s", p.name);
-    printf("vaccine:%d\n", p.age);
-    if (p.age > 18) {
-        printf("eligibility:yes\n");
+    printf("Name:%s\n", p.name);
+    if (p.age > 6) {
+        printf("Vaccine Eligibility:yes\n");
     } else {
-        printf("eligibility:no\n");
+        printf("Vaccine Eligibility:no\n");
     }
 
     return 0;
@@ -44,7 +43,10 @@ int main() {
 
 **Output:**
 
-![image](https://github.com/user-attachments/assets/a2d1e6b5-c4a4-4ae2-b91a-958b5491311a)
+![image](https://github.com/user-attachments/assets/9b89ae53-5930-4f75-9b1d-c9b41800e6e5)
+![image](https://github.com/user-attachments/assets/b2c9eeac-cac7-47ac-93eb-21f39ceb93cd)
+
+
 
 **Result:**
 
